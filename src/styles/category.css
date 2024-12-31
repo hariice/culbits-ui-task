@@ -1,0 +1,42 @@
+.cat-main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.cat-card {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px 30px;
+    background-color: rgb(5, 97, 43);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cat-title {
+    color: #fff;
+    font-size: 1.8em;
+}
+
+h1 {
+    color: #000000c4;
+    padding: 20px;
+}
+
+@media (max-width: 765px) {
+    .cat-main {
+        grid-template-columns: auto auto;
+    }
+    .cat-card {
+        width: 150px;
+        height: 150px;
+    }
+    .cat-title {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+}

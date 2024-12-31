@@ -1,1 +1,17 @@
+.banner-img img {
+    width: 100%;
+}
 
+.banner-img p {
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1em;
+}
+
+@media (max-width: 765px) {
+    .banner-img p {
+        font-weight: bold;
+        padding: 8px;
+        font-size: 0.8em;
+    }
+}
